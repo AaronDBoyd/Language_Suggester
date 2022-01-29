@@ -3,10 +3,11 @@ $(document).ready(function() {
     const hundred = parseInt($("input#hundred").val());
     const vacation = $("input:radio[name=vacation]:checked").val();
     const dogs = $("input:radio[name=dogs]:checked").val();
-   
-    if (hundred <= 50 && vacation === "home") {
+    const music = $("select#music").val();
+
+    if (hundred <= 30 && vacation === "home" || music === "xsj") {
       $("#ruby").show();
-    } else if (hundred > 50 && vacation === "beach") {
+    } else if (hundred > 30 && vacation === "beach" ) {
       $("#go").show();
     } else {
       $("#python").show();
