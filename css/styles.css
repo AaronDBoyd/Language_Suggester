@@ -5,3 +5,7 @@
 .btn {
   display: block;
 }
+
+body {
+  background-color: skyblue; 
+}
