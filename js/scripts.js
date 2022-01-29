@@ -9,7 +9,15 @@ $(document).ready(function() {
     } else {
       $("#python").show();
     }
-      event.preventDefault();
-  
+     
+    
+    event.preventDefault();
   });
+  // $(".btn").click(function() {
+  //   $("#ruby").toggle();
+  //   $("#python").toggle();
+  //   $("#go").toggle();
+
+  
+  // });
 });
