@@ -6,24 +6,24 @@ $(document).ready(function() {
     const music = $("select#music").val();
 
     if (hundred <= 30 && vacation === "home" || music === "xsj") {
-      $("#ruby").show();
+      $("#ruby").fadeIn();
       $("#go").hide();
       $("#python").hide();
       $("#nope").hide();
     } else if (hundred > 30 && vacation === "beach" ) {
-      $("#go").show();
+      $("#go").fadeIn();
       $("#ruby").hide();
       $("#python").hide();
       $("#nope").hide();
     } else {
-      $("#python").show();
+      $("#python").slideDown();
       $("#ruby").hide();
       $("#go").hide();
       $("#nope").hide();
     }
     
     if (dogs === "false") {
-      $("#nope").show();
+      $("#nope").slideDown();
       $("#ruby").hide();
       $("#python").hide();
       $("#go").hide();
