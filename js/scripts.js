@@ -31,11 +31,4 @@ $(document).ready(function() {
     
     event.preventDefault();
   });
-  // $(".btn").click(function() {
-  //   $("#ruby").toggle();
-  //   $("#python").toggle();
-  //   $("#go").toggle();
-
-  
-  // });
 });
