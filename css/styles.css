@@ -10,9 +10,7 @@ body {
   background-color: skyblue; 
   font-weight: bolder;
   border: 30px double black;
-  /* border-right: 30px double black;
-  border-left: 30px double black; */
-  padding-left: -50px;
+  padding: 50px;
   margin: 20px;
 }
 
